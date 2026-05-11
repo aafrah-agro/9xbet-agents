@@ -183,7 +183,6 @@
             box-shadow:0 2px 8px rgba(0,0,0,.07);
         }
         table{width:100%;border-collapse:collapse;font-size:.85rem}
-        thead{position:sticky;top:57px;z-index:10}
         thead th{
             background:#e8f5e9;
             color:var(--green);
@@ -195,6 +194,7 @@
             border-bottom:2px solid var(--green-bdr);
             white-space:nowrap;
         }
+        thead th.th-name{text-align:left}
         thead th:last-child{border-right:none}
         .th-num{width:44px;background:#dcedc8;color:var(--green);font-weight:800}
 

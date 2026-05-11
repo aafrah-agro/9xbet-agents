@@ -59,7 +59,7 @@ $has_complaint = $agentsList->contains(fn($a)=>$a->complaint_number);
             <tr>
                 <th class="th-num">ক্রমিক</th>
                 <th>এজেন্ট আইডি</th>
-                <th>নাম</th>
+                <th class="th-name">নাম</th>
                 <th>হোয়াটসঅ্যাপ</th>
                 @if($has_complaint)
                 <th>অভিযোগ নম্বর</th>
