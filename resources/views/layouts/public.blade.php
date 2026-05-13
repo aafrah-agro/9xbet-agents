@@ -23,6 +23,8 @@
 
     @if($setting->favicon)
     <link rel="icon" href="{{ asset('storage/' . $setting->favicon) }}" type="image/x-icon">
+    @else
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231b5e20'/><text x='50%25' y='38' font-family='Arial Black,Arial' font-weight='900' font-size='22' fill='%23ffd700' text-anchor='middle'>9X</text><text x='50%25' y='54' font-family='Arial Black,Arial' font-weight='700' font-size='11' fill='%2381c784' text-anchor='middle'>BET</text></svg>" type="image/svg+xml">
     @endif
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -122,7 +124,7 @@
             font-size:.82rem;
             font-weight:500;
             display:inline-block;
-            animation:xticker 35s linear infinite;
+            animation:xticker 65s linear infinite;
         }
         @@keyframes xticker{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
 
