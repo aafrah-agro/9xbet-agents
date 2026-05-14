@@ -8,6 +8,7 @@
     <meta name="description" content="@yield('meta_description', $setting->meta_description)">
     <meta name="keywords" content="{{ $setting->meta_keywords }}">
     <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="N1SbOJPuiqQefd5_OlTPO0lM2FzmZj3QvJXKXsjA7LE" />
     <link rel="canonical" href="{{ url()->current() }}">
 
     <meta property="og:type" content="website">
